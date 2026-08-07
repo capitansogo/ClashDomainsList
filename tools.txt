@@ -626,6 +626,7 @@ payload:
   - '+.mfe-grow.production.linktr.ee'
   - '+.mfe-mk-editor.production.linktr.ee'
   - '+.mfe-onboarding.production.linktr.ee'
+  - '+.micoair.com'
   - '+.mi.strava.com'
   - '+.migrate.make.com'
   - '+.miro.com'
