@@ -1,0 +1,13 @@
+payload:
+  - '+.csstats.gg'
+  - '+.esea.net'
+  - '+.esl.com'
+  - '+.eslgaming.com'
+  - '+.faceit-cdn.net'
+  - '+.faceit.com'
+  - '+.faceit.io'
+  - '+.faceitanalyser.com'
+  - '+.faceitfinder.com'
+  - '+.faceitstats.com'
+  - '+.faceittracker.net'
+  - '+.leetify.com'

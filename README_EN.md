@@ -29,6 +29,7 @@ A collection of domain lists for Clash and compatible proxy clients. Convenient 
 | <img src="discord.svg" width="200" alt="Discord"> **Discord** | Discord and related services | ~3000 | [discord.txt](https://raw.githubusercontent.com/teslaproduuction/ClashDomainsList/main/discord.txt) |
 | <img src="music.svg" width="200" alt="Music"> **Music** | Music streaming services | ~200 | [music.txt](https://raw.githubusercontent.com/teslaproduuction/ClashDomainsList/main/music.txt) |
 | <img src="porno.svg" width="200" alt="Porno"> **Porno** | Adult content | ~100 | [porno.txt](https://raw.githubusercontent.com/teslaproduuction/ClashDomainsList/main/porno.txt) |
+| <img src="faceit.svg" width="200" alt="FACEIT"> **FACEIT** | FACEIT, ESEA/ESL and stats services | ~12 | [faceit.txt](https://raw.githubusercontent.com/teslaproduuction/ClashDomainsList/main/faceit.txt) |
 | <img src="socials.svg" width="200" alt="Socials"> **Socials** | Social networks (Facebook, Instagram, Twitter, etc.) | ~1000 | [socials.txt](https://raw.githubusercontent.com/teslaproduuction/ClashDomainsList/main/socials.txt) |
 | <img src="tools.svg" width="200" alt="Tools"> **Tools** | Online tools and services | ~1000 | [tools.txt](https://raw.githubusercontent.com/teslaproduuction/ClashDomainsList/main/tools.txt) |
 | <img src="telegram.svg" width="200" alt="Telegram"> **Telegram** | Telegram and related services | ~50 | [telegram.txt](https://raw.githubusercontent.com/teslaproduuction/ClashDomainsList/main/telegram.txt) |
@@ -112,6 +113,13 @@ rule-providers:
     path: ./ruleset/telegram.yaml
     interval: 86400
 
+  faceit:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/teslaproduuction/ClashDomainsList/main/faceit.txt"
+    path: ./ruleset/faceit.yaml
+    interval: 86400
+
   twitch:
     type: http
     behavior: domain
@@ -156,6 +164,9 @@ rules:
 
   # Telegram through proxy
   - RULE-SET,telegram,PROXY
+
+  # FACEIT through proxy
+  - RULE-SET,faceit,PROXY
 
   # Twitch through proxy
   - RULE-SET,twitch,PROXY

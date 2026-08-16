@@ -15,6 +15,7 @@ payload:
   - PROCESS-NAME-REGEX,(?i).*snapchat.*
   - PROCESS-NAME-REGEX,(?i).*instagram.*
   - PROCESS-NAME-REGEX,(?i).*whatsapp.*
+  - PROCESS-NAME-REGEX,(?i).*faceit.*
   - PROCESS-NAME-REGEX,(?i).*qbittorrent.*
   - PROCESS-NAME-REGEX,(?i).*utorrent.*
   - PROCESS-NAME-REGEX,(?i).*bittorrent.*
