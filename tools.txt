@@ -259,6 +259,7 @@ payload:
   - '+.geico.my.sentry.io'
   - '+.getsentry.net'
   - '+.ghs.connect.garmin.com'
+  - '+.github.io'
   - '+.githubcopilot.com'
   - '+.glasshub.sentry.io'
   - '+.glyph.medium.com'
